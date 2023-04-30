@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/resturantapp/static/css/main.e0a88fad.css",
+    "main.js": "/resturantapp/static/js/main.236db0e6.js",
+    "static/js/787.d3befce1.chunk.js": "/resturantapp/static/js/787.d3befce1.chunk.js",
+    "static/media/pexels-nerfee-mirandilla-3186654.jpg": "/resturantapp/static/media/pexels-nerfee-mirandilla-3186654.8e4a4f30430045cb4ca2.jpg",
+    "static/media/pexels-jane-doan-1099680.jpg": "/resturantapp/static/media/pexels-jane-doan-1099680.99b2800bf71faebae047.jpg",
+    "static/media/pexels-robin-stickel-70497.jpg": "/resturantapp/static/media/pexels-robin-stickel-70497.d2ced6d4f0527273f093.jpg",
+    "index.html": "/resturantapp/index.html",
+    "main.e0a88fad.css.map": "/resturantapp/static/css/main.e0a88fad.css.map",
+    "main.236db0e6.js.map": "/resturantapp/static/js/main.236db0e6.js.map",
+    "787.d3befce1.chunk.js.map": "/resturantapp/static/js/787.d3befce1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e0a88fad.css",
+    "static/js/main.236db0e6.js"
+  ]
+}
