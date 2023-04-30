@@ -1,0 +1,80 @@
+.foodDisplay{
+    margin-top: 2rem;
+}
+
+.foodDisplay ul{
+    
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: max-content;
+    margin: 0 auto;
+    gap: 10px
+}
+
+.foodDisplay ul li{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    border: 1px solid red;
+    padding: 10px;
+    /* width: 350px; */
+    
+}
+
+
+.foodDisplay ul li img{
+    margin: 0 auto;
+}
+
+
+.lefts{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.lefts h1{
+    font-size: 20px;
+}
+
+.lefts p{
+    font-size: 25px;
+}
+
+.lefts button{
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+/* .right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.right button, .right span{
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.right button{
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    border: none;
+    transition: all 0.5s;
+}
+
+.right button:hover{
+    background-color: rgb(109, 25, 42);
+}
+ */

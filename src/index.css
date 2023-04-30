@@ -7,7 +7,84 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+nav{
+  height: 100px;
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .left{
+  
+  flex-basis: 25%;
+  /* border: 1px solid red; */
+  padding-left: 50px;
+  cursor: pointer;
+}
+
+nav .right{
+  flex-basis: 50%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  padding-right: 50px;
+}
+
+nav .right ul{
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav .right ul li{
+  display: inline-block;
+padding: 0 10px;
+cursor: pointer;
+}
+
+nav .right ul li a{
+  text-decoration: none;
+  color: black;
+  transition: all 0.5s;
+}
+
+nav .right ul li a:hover{
+  color: darkorange;
+}
+
+nav .right button{
+  padding: 10px 15px;
+  background: plum;
+  border: none;
+  color: white;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+nav .right button:hover{
+  background: rgb(156, 117, 156);
+}
+
+.user{
+  flex-basis: 25%;
+}
+
+.user ul{ 
+  text-align: end;
+  padding-right: 60px;
+}
+.user ul li{
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.user ul li:hover{
+  color: darkorange;
+}
+
+.user span{
+  margin-left: 10px;
 }
